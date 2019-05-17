@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "PIITRACK",
+    "packageName": "nch.bpci.piitrack",
+    "packageFolder": "nch/bpci/piitrack",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mssql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.1",
+    "jwtSecretKey": "ODE3MWI0NTJhMmZlMWU4NWE3NWJjY2M3NmQxZjdlOWZiYjNjMjg1NzQ5ODAxYmE3OGUzZTk1ZGQ2N2UwY2I0YWQyNzhmMDcwY2Q2NDM2ZjNlZDhhMDVmM2Q4NDUwNGE0YjJkNmRiMTI2YTBlZmYxYWRiYjFjZGZmNDA1NzA2YTA=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "cosmocracy",
+  "repository-name": "piitrack-jhipster"
+}
